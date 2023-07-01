@@ -1,0 +1,6 @@
+function reverse(n) {
+    var arr = n.split('');
+    var r = arr.reverse();
+    var ans = r.join('');
+    console.log(ans);
+};
