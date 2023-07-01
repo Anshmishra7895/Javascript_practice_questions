@@ -1,0 +1,4 @@
+function remove_specific(arr, remove) {
+    var ans = arr.filter(e=>e!=remove);
+    return ans;
+};
