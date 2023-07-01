@@ -1,0 +1,9 @@
+function vowel(n) {
+    var arr = n.split('');
+    var ans = arr.filter(e => {
+        if(e == 'a' || e == 'e' || e =='i' || e == 'o' || e == 'u'){
+            return e;
+        }
+    }).length
+    return ans;
+}
