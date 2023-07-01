@@ -1,0 +1,12 @@
+function capital(x){
+    var arr = x.split(" ");
+    for(var i = 0; i < arr.length; i++){
+        arr[i]  = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+    }
+    var str = arr.join(" ");
+    console.log(str);
+}
+undefined
+capital("hey bro how are you doing.");
+VM443:7 Hey Bro How Are You Doing.
+undefined
