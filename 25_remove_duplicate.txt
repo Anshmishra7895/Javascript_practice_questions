@@ -1,0 +1,4 @@
+function duplicate(arr) {
+    var ans = arr.filter((e,i)=>arr.indexOf(e) === i);
+    return ans;
+};
