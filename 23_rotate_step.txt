@@ -1,0 +1,6 @@
+function rotatestep(arr, step) {
+    for(var i = 0 ; i < step ; i++){
+        arr.unshift(arr.pop());
+    }
+    return arr;
+};
