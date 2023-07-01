@@ -1,0 +1,14 @@
+function anagram(n,m){
+    var a = n.split('').sort().join('');
+    var b = m.split('').sort().join('');
+    
+    if(a === b){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+undefined
+anagram("mary","army");
+true
