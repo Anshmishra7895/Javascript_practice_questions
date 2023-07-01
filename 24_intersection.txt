@@ -1,0 +1,23 @@
+function intersection(x, y) {
+    var n1 = x.sort();
+    var n2 = y.sort();
+    var i = 0;
+    var j = 0;
+    var k =0;
+    var ans = [];
+    while(i < n1.length && j < n2.length){
+        if(n1[i] == n2[j]){
+            ans[k] = n1[i];
+            i++;
+            j++;
+            k++;
+        }
+        else if(n1[i]<n2[j]){
+            i++;
+        }
+        else{
+            j++;
+        }
+    }
+    return ans;
+};
