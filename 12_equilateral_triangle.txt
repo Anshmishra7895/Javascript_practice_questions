@@ -1,0 +1,17 @@
+function triangle(x,y,z){
+    x = parseInt(x);
+    y = parseInt(y);
+    z = parseInt(z);
+    if(x === y && y === z){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+function check(x,y,z,fn){
+    console.log(fn(x,y,z));
+}
+undefined
+check(5,5,5,triangle);
+VM3352:13 true
