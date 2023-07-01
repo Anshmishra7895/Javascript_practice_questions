@@ -1,0 +1,17 @@
+function validatePhone(n){
+    if(typeof n === 'number'){
+        
+    var x = n.toString();
+    if(x.length == 10){
+        return "valid";
+    }
+    }
+    else{
+        return "invalid";
+    }
+}
+undefined
+validatePhone("asdfgtasd");
+'invalid'
+validatePhone(8965472584);
+'valid'
