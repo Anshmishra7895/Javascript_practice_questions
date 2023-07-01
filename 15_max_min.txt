@@ -1,0 +1,19 @@
+function maxMin(x){
+    var a = x.length;
+    var max = x[0];
+    var min = x[0];
+    for(var i = 0; i< a; i++){
+        if(x[i]>max){
+            max = x[i];
+        }
+        if(x[i]<min){
+            min = x[i];
+        }
+    }
+    console.log(`Max no. : ${max}\nMin no. ${min}`);
+    
+}
+undefined
+maxMin([10,30,2,222,5]);
+VM5401:13 Max no. : 222
+Min no. 2
