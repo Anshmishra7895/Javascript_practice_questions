@@ -1,0 +1,16 @@
+function occ(n){
+    var obj = {};
+    for(var i of n){
+        if(!obj[i]){
+            obj[i] = 1;
+        }
+        else{
+            obj[i] = obj[i] + 1;
+        }
+    }
+    console.log(obj);
+}
+undefined
+occ("anshaaa");
+VM1155:11 {a: 4, n: 1, s: 1, h: 1}
+undefined
