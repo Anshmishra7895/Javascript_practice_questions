@@ -1,0 +1,4 @@
+function sum(n) {
+    var ans = n.reduce((acc, e)=>acc+e, 0);
+    return ans;
+};
