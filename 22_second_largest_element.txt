@@ -1,0 +1,4 @@
+function second_larget(arr) {
+    var ans = arr.sort((a,b) => b-a);
+    return ans[1];
+};
