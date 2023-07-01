@@ -1,0 +1,18 @@
+function employee(id,name,salary){
+    var hra  = salary * 0.30;
+    var da  = salary * 0.10;
+    var ta = salary * 0.20;
+    var gs = salary + hra + da + ta;
+    var tax_d = gs*0.10;
+    var ns = gs - tax_d;
+    console.log(`HRA : ${hra}\nDA : ${da}\nTA : ${ta}\nGS : ${gs}\nTax_deduction : ${tax_d}\nNS : ${ns}`);
+}
+undefined
+employee(11,"blunder",110000);
+VM4430:8 HRA : 33000
+DA : 11000
+TA : 22000
+GS : 176000
+Tax_deduction : 17600
+NS : 158400
+undefined
